@@ -7,9 +7,10 @@
 }
 
 .card {
-    height: 100%;
-    color: white;
-    background-color: dodgerblue;
+    height: 50%;
+    width: 100%;
+    color: dodgerblue;
+    background-color: white;
 }
 
 .col {
@@ -25,3 +26,4 @@
 .pb-3 {
     padding-bottom: 3rem;
 }
+
