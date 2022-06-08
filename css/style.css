@@ -1,0 +1,23 @@
+.row > [class^='col'] {
+    min-height: 100px;
+    padding: 5px;
+    background-color: dodgerblue;
+    border: 2px solid white;
+    color: white;
+}
+
+.card {
+    height: 100%;
+    color: white;
+    background-color: dodgerblue;
+}
+
+.col {
+    max-height: 100%;
+}
+
+.nested [class^='col']{
+    border: 2px solid dodgerblue;
+    background-color: lightgreen;
+
+}
